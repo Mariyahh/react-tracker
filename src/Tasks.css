@@ -1,0 +1,67 @@
+.task-container {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .task-header h2 {
+    margin: 0;
+  }
+  
+  .task-actions {
+    display: flex;
+  }
+  
+  .task-actions button {
+    margin-left: 5px;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .task-actions button:hover {
+    background-color: #45a049;
+  }
+  
+  .sortDate {
+    border: none;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-right: solid #000 1px;
+    padding-right: 15px;
+  }
+
+
+  button {
+    border: none;
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    border-right: solid #000 1px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+  }
+
+  .filsor button:hover {
+    background-color: #B47B84;
+    padding: 3px;
+    color: #fff;
+  }
+
+  .sorfil button:hover {
+    text-decoration: underline;
+  }
